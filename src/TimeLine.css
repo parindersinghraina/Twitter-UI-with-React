@@ -1,0 +1,23 @@
+.timeline{
+    flex: 0.6;
+    border-right: 1px solid var(--grey-border);
+    overflow: scroll;
+}
+
+.timeline::-webkit-scrollbar{
+    display: none;
+}
+
+.timeline {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.timelinestickyheader {
+    position: sticky;
+    top: 0;
+    color: white;
+    background-color: var(--hover-text-color);
+    z-index: 100;
+    padding: 15px 20px;
+}

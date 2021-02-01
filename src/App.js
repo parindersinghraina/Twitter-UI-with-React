@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import SideNavBar from "./SideNavBar.js"
+import TimeLine from "./TimeLine.js"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div className="app">
+      {/* Side navigation bar */}
+      <SideNavBar/>
+      {/* Timeline */}
+      <TimeLine/>
+      {/* Other stuff */}
     </div>
   );
 }

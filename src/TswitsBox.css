@@ -1,0 +1,34 @@
+.tswitsbox {
+    padding-bottom: 10px;
+    border: 1px solid var(--grey-border);
+    padding-right: 10px;
+}
+
+.tswitsbox > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.tswitsinput {
+    padding: 20px;
+    display: flex;
+}
+
+.tswitsinput > input {
+    flex: 1;
+    border: none;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.tswitsbutton {
+    background-color: var(--hover-text-color) !important;
+    color: white !important;
+    border-radius: 30px !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width: 90px;
+    height: 40px !important;
+    margin-top: 20px !important;
+    margin-left: auto !important;
+}

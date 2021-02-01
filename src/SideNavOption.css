@@ -1,0 +1,26 @@
+.sidenavoption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+  
+.sidenavoption:hover {
+    background-color: var(--hover-bg-color);
+    border-radius: 30px;
+    color: var(--hover-text-color);
+    transition: color 0.1s ease-out;
+}
+  
+.sidenavoption > .MuiSvgIcon-root {
+    padding: 20px;
+}
+  
+.sidenavoption h2 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
+  
+.sidenavoption--active {
+    color: var(--hover-text-color);
+}
